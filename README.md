@@ -1,10 +1,10 @@
 # pingger
 Node application for internet connection log
 
-# Requirements
+## Requirements ##
 - node
 
-## Usage
+## Usage ##
 ```$ npm install```
 
 ```$ node .```
