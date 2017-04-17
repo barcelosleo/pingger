@@ -1,7 +1,7 @@
 var ping = require('ping');
 var fs = require('fs');
 
-const hosts = ['192.168.1.1', 'google.com', 'yahoo.com'];
+const hosts = ['facebook.com', 'google.com', 'yahoo.com'];
 const intervalSeconds = 60;
 
 setInterval(() => {
