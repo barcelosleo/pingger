@@ -6,4 +6,5 @@ Node application for internet connection log
 
 ## Usage
 ```npm install```
+
 ```node .```
