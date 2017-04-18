@@ -5,8 +5,8 @@ const hosts = ['facebook.com', 'google.com', 'yahoo.com'];
 const intervalSeconds = 60;
 
 setInterval(() => {
-    hosts.forEach(function (host) {
-        ping.sys.probe(host, function (isAlive) {
+    hosts.forEach((host) => {
+        ping.sys.probe(host, (isAlive) => {
             let date = new Date();
             let msg = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()} ${date.getHours()}:${date.getMinutes()} >> ${host} ping failed!`
             if (!isAlive) {
