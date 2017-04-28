@@ -7,4 +7,6 @@ Node application for internet connection log
 ## Usage ##
 ```$ npm install```
 
-```$ node .```
+```$ npm start``` - Will start a pingger process
+
+```$ npm stop``` - Will stop the pingger process
